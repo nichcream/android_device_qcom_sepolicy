@@ -133,6 +133,7 @@ vendor.sys.boot_mode              u:object_r:vendor_boot_mode_prop:s0
 # GPU
 ro.vendor.gpu.available_frequencies u:object_r:freq_prop:s0
 # NFC
+persist.nfc.hci_network_reset_req u:object_r:nfc_nq_prop:s0
 vendor.qti.nfc.            u:object_r:nfc_nq_prop:s0
 # LKCore start
 ctl.vendor.LKCore-dbg      u:object_r:ctl_LKCore_prop:s0
